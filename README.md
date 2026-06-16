@@ -1,21 +1,16 @@
-# Agentic AI Lab
-
-A hands-on, learn-by-building journey from **Java Engineer** to **GenAI Engineer**, **Agentic AI Engineer**, and ultimately **Enterprise AI Architect**.
-
-This repository documents the step-by-step construction of AI agents, progressing from simple LLM integrations to enterprise-grade multi-agent systems.
-
----
-
 # Vision
 
-Build **1000 AI Agents** to systematically learn:
+Build **100 Portfolio-Grade AI Agents and Agentic Systems** to systematically learn and master:
 
 * Python for AI Engineering
 * Prompt Engineering
 * Context Engineering
 * Memory Systems
 * Tool Usage
+* API Integration
+* Developer Productivity Agents
 * RAG (Retrieval Augmented Generation)
+* Embeddings
 * Vector Databases
 * PostgreSQL
 * LangGraph
@@ -28,25 +23,9 @@ Build **1000 AI Agents** to systematically learn:
 * Kubernetes
 * Azure AI
 * Enterprise AI Architecture
+* Multi-Agent Systems
 
----
-
-# Long-Term Goal
-
-Design and build an:
-
-## AI-Native Pension Administration Platform
-
-using multiple specialized AI agents such as:
-
-* Member Agent
-* Pension Calculation Agent
-* Document Processing Agent
-* Compliance Agent
-* Communication Agent
-* Audit Agent
-* Workflow Agent
-* Supervisor Agent
+The objective is not to create hundreds of tiny demonstrations, but to build meaningful AI systems that progressively increase in complexity and enterprise relevance.
 
 ---
 
@@ -67,215 +46,20 @@ Principles:
 * Focus on engineering rather than tutorials
 * Connect every concept to enterprise applications
 
----
+### Agent Design Philosophy
 
-# Technology Stack
+Each agent represents a meaningful capability rather than a single isolated concept.
 
-## Development Tools
+Earlier agents focus on learning fundamentals.
 
-* Python
-* VS Code
-* Git
-* GitHub
-* Docker Desktop
-* WSL2
+Later agents become larger, portfolio-grade projects that may span multiple learning sessions and combine multiple concepts.
 
-## AI
+Examples:
 
-* Gemini API
-* Google GenAI SDK
-
-## Future Technologies
-
-* PostgreSQL
-* pgvector
-* ChromaDB
-* FastAPI
-* Redis
-* LangGraph
-* CrewAI
-* Azure AI
-* Kubernetes
-
----
-
-# Completed Agents
-
----
-
-## 001 - Hello Agent
-
-### Purpose
-
-Learn how to connect an application to a Large Language Model using the Gemini SDK.
-
-### Concepts Learned
-
-* Gemini API Integration
-* Virtual Environments
-* Environment Variables
-* API Keys
-* SDK Usage
-* Basic Prompting
-
-### Architecture
-
-User → Python → Gemini → Response
-
----
-
-## 002 - Java Expert Agent
-
-### Purpose
-
-Build a specialized AI assistant using personas and system prompts.
-
-### Concepts Learned
-
-* Personas
-* System Prompts
-* Prompt Engineering
-* Context Engineering
-* Role-Based AI Behavior
-
-### Architecture
-
-System Prompt + User Question → Gemini → Response
-
----
-
-## 003 - Memory Agent
-
-### Purpose
-
-Allow the agent to remember previous interactions within a session.
-
-### Concepts Learned
-
-#### Python
-
-* Lists
-* append()
-* join()
-
-#### AI Engineering
-
-* Conversation History
-* Memory
-* Context Windows
-
-### Architecture
-
-Persona + Memory + Current Question → Gemini → Response
-
-### Key Learning
-
-Naive memory grows forever and eventually requires optimization.
-
----
-
-## 004 - File Reader Agent
-
-### Purpose
-
-Build an AI-powered document analysis agent that can read text-based files and perform different user-selected actions.
-
-### Concepts Learned
-
-#### Python
-
-* input()
-* open()
-* read()
-* with
-* try/except
-* if / elif / else
-
-#### AI Engineering
-
-* Document Processing
-* Context Injection
-* Dynamic Prompt Construction
-* User Intent + Context
-
-#### Software Engineering
-
-* File Path Handling
-* Error Handling
-* Interactive Workflows
-
-### Architecture
-
-File → Read → Prompt → Gemini → Analysis
-
-### Key Learning
-
-Task + Context = Prompt
-
----
-
-## 005 - Tool Agent
-
-### Purpose
-
-Build a menu-driven Tool Agent that can execute different actions based on user selection.
-
-The goal is to introduce the concept of tools and actions, which are fundamental building blocks of Agentic AI systems.
-
-### Concepts Learned
-
-#### Python
-
-* Functions
-* Parameters
-* Return Values
-* f-strings
-* datetime module
-* while True loops
-* break statement
-* Conditional routing (if / elif / else)
-* User input handling
-* Menu-driven applications
-
-#### AI Engineering
-
-* Tool Concept
-* Action Execution
-* Request Routing
-* Agent vs Chatbot
-* Tool-Based Architecture
-* Decision Flow
-
-#### Software Engineering
-
-* User Input Validation
-* Interactive Menus
-* Workflow Design
-* Function Composition
-* Reusable Components
-
-#### Enterprise Relevance
-
-Foundation for future enterprise agents such as:
-
-* Member Lookup Agent
-* Pension Calculation Agent
-* Statement Generation Agent
-* Compliance Agent
-
-### Architecture
-
-User → Menu → Router → Tool → Result
-
-### Key Learning
-
-An AI Agent is not just something that thinks.
-
-An AI Agent can:
-
-* Think
-* Decide
-* Act
+* Tool Agent → Routing + Functions + Intent Detection
+* Source Code Intelligence Agent → File Processing + Prompt Templates + Code Analysis
+* RAG Agent → Embeddings + Retrieval + Context Assembly
+* Enterprise Knowledge Agent → RAG + Databases + APIs + Workflows
 
 ---
 
@@ -283,76 +67,89 @@ An AI Agent can:
 
 Completed:
 
-* ✅ Agent 001
-* ✅ Agent 002
-* ✅ Agent 003
-* ✅ Agent 004
-* ✅ Agent 005
+* ✅ Agent 001 – Hello Agent
+* ✅ Agent 002 – Java Expert Agent
+* ✅ Agent 003 – Memory Agent
+* ✅ Agent 004 – File Reader Agent
+* ✅ Agent 005 – Tool Agent
 
 Current Focus:
 
-* Agent 006 – Natural Language Tool Agent
+* 🚧 Agent 006 – Source Code Intelligence Agent
 
 ---
 
 # Upcoming Roadmap
 
-## Foundations
+## Level 1 – Foundations (Completed)
 
-* 006 Natural Language Tool Agent
-* 007 Multi-Tool Agent
-* 008 Code Review Agent
-* 009 API Agent
-* 010 Mini Workflow Agent
-
-## AI Engineering
-
-* RAG
-* Embeddings
-* Vector Databases
-* PostgreSQL
-* pgvector
-* ChromaDB
-
-## Agentic AI
-
-* Tool Calling
-* MCP
-* LangGraph
-* CrewAI
-* Multi-Agent Systems
-
-## Enterprise AI
-
-* FastAPI
-* Docker Compose
-* Redis
-* Security
-* Monitoring
-* Observability
-
-## Cloud & Production
-
-* Azure AI
-* Azure OpenAI
-* Kubernetes
-* CI/CD
-* Enterprise Architecture
+* 001 Hello Agent
+* 002 Java Expert Agent
+* 003 Memory Agent
+* 004 File Reader Agent
+* 005 Tool Agent
 
 ---
 
-# Standard Workflow After Every Agent
+## Level 2 – Developer Productivity Agents
 
-1. Build Agent
-2. Test Agent
-3. Update Agent README
-4. Update Main README
-5. Update requirements.txt
-6. Run git status
-7. Run git add .
-8. Run git commit -m "<message>"
-9. Run git push
-10. Update Roadmap
+* 006 Source Code Intelligence Agent
+* 007 API Integration Agent
+* 008 Documentation Agent
+* 009 Test Case Generation Agent
+* 010 Developer Copilot Agent
+
+---
+
+## Level 3 – Knowledge & Search
+
+* 011 Knowledge Base Agent
+* 012 Embeddings Agent
+* 013 ChromaDB Agent
+* 014 PostgreSQL Agent
+* 015 RAG Agent
+
+---
+
+## Level 4 – Enterprise Workflows
+
+* 016 Member Lookup Agent
+* 017 Pension Calculation Agent
+* 018 Statement Generation Agent
+* 019 Document Processing Agent
+* 020 Compliance Agent
+
+---
+
+## Level 5 – Multi-Agent Systems
+
+* 021 Supervisor Agent
+* 022 Planner Agent
+* 023 Worker Agent
+* 024 Reviewer Agent
+* 025 Multi-Agent Workflow System
+
+---
+
+## Future Levels
+
+Future levels will cover:
+
+* FastAPI
+* Docker
+* Docker Compose
+* Redis
+* Azure AI
+* LangGraph
+* CrewAI
+* MCP
+* Kubernetes
+* Monitoring & Observability
+* Security
+* CI/CD
+* Enterprise Architecture
+
+The final levels of the journey will focus on building an AI-Native Pension Administration Platform using the skills acquired throughout the program.
 
 ---
 
@@ -360,11 +157,17 @@ Current Focus:
 
 By the end of this journey, this repository will contain:
 
-* Hundreds of AI Agents
-* Enterprise AI Patterns
+* 100 Portfolio-Grade AI Agents and Agentic Systems
+* Enterprise AI Engineering Patterns
 * Production-Ready Architectures
-* End-to-End Agentic Systems
+* Multi-Agent Workflows
+* RAG Systems
+* Knowledge Platforms
+* Developer Productivity Tools
+* Enterprise Business Agents
 
 and serve as a complete record of the transition from:
 
 **Java Engineer → GenAI Engineer → Agentic AI Engineer → Enterprise AI Architect**
+
+The ultimate objective is to design and build an AI-Native Pension Administration Platform while developing industry-ready expertise in modern AI engineering.

@@ -22,23 +22,17 @@ def say_hello(name):
 
 
 while True:
-    user_choice  = input("""
-    Please enter your choice :
-    1. Current Date
-    2. Current Year
-    3. Say Hello
-    4. Exit
-    """)
+    user_choice  = input("You:")
+    user_choice = user_choice.lower()
 
-    if user_choice == "1":
+    if "date" in user_choice:
         print(get_current_date())
-    elif user_choice == "2":
+    elif "year" in user_choice:
         print(get_current_year())
-    elif user_choice == "3":
-        name = input("\n whats your name:")
+    elif "say hello to" in user_choice:
+        name = user_choice.replace("say hello to","").strip()
         print(say_hello(name))
-    elif user_choice == "4":
-        break;
+    elif "exit" in user_choice:
+        break
     else :
-        print(""" Invalid option!!!
-        Please choose from the menu""")
+        print("Sorry ! I dont Understand your request")
